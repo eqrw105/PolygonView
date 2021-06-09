@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PolygonGraphView">
+        <attr name="fillColor" format="color"/>
+        <attr name="axisColor" format="color"/>
+        <attr name="axisSize" format="dimension"/>
+        <attr name="dotSize" format="dimension"/>
+        <attr name="dotPadding" format="dimension"/>
+        <attr name="labelSize" format="dimension"/>
+        <attr name="labelPadding" format="dimension"/>
+        <attr name="animDuration" format="integer"/>
+        <attr name="backColor" format="color"/>
+    </declare-styleable>
+</resources>
