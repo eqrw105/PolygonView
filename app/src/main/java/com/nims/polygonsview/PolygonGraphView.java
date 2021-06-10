@@ -126,7 +126,7 @@ public class PolygonGraphView extends View implements ValueAnimator.AnimatorUpda
 
     private void drawAxis(Canvas canvas, int radius) {
         final int size = valueHolders.length;
-        final float half = (size / 2) + 1;
+        final float half = Math.round(size / 2.0);
         final float quad = half / 2;
         final int centerX = getWidth() / 2;
         final int centerY = getHeight() / 2;
